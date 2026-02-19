@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.katalog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 20px;
+
+  background-image: url(https://i.pinimg.com/736x/d6/4d/b3/d64db30df8c3f841126a8cfc5bc80bf0.jpg);
+  width: max-content;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 25px;
+  width: 1200px;
+}
+body {
+  background-image: url(https://i.pinimg.com/originals/90/2f/b6/902fb683da6e99129aa43990f81607cd.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.katalog__card {
+  max-width: 400px;
+  max-height: 500px;
+  background-image: url(https://i.pinimg.com/originals/a4/b1/21/a4b12187f219b4c8ef3b51057481b1d0.gif);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+  border-radius: 20px;
+  color: pink;
+}
+.card-image {
+  max-width: 260px;
+  max-height: 260px;
+  border: 5px solid palevioletred;
+  object-fit: contain;
+}
+.card-name {
+  color: pink;
+  font-size: 20px;
+}
+
+.btnBye {
+  padding: 5px 105px;
+  background-color: palevioletred;
+  border: none;
+  color: pink;
+  font-size: 17px;
+}
+.btnDelete {
+  padding: 5px 15px;
+}
+
+.head {
+  background-image: url(https://i.pinimg.com/736x/af/03/03/af0303c87c03bfb9b6555c07c88deb76.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 170px;
+  margin-bottom: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-radius: 0 0px 20px 20px;
+}
+.ellie {
+  max-width: 120px;
+  max-height: 100px;
+  /* border: 4px double palevioletred; */
+}
+.blesk {
+  font-size: 56px;
+  color: rgb(240, 182, 201);
+  background-image: url();
+  background-position: center;
+  border-radius: 30px;
+  max-height: 80px;
+}
+.bleskone {
+  color: rgb(240, 182, 201);
+  background-image: url();
+  background-position: center;
+  border-radius: 30px;
+  max-height: 50px;
+}
+
+.card-description {
+  text-align: center;
+}
+.card-pice {
+  font-size: 25px;
+}
+
+.cart {
+  background-image: url(https://i.pinimg.com/originals/a4/b1/21/a4b12187f219b4c8ef3b51057481b1d0.gif);
+  border-radius: 20px;
+  max-width: 200px;
+  position: absolute;
+  right: 10px;
+  padding: 10px;
+
+  color: pink;
+}
+.closeCart {
+  position: absolute;
+  right: 2px;
+  top: 3px;
+  border: none;
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+}
+
+.cart-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #b35983;
+  color: pink;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.btnremove {
+  padding: 5px 60px;
+  background-image: url(https://i.pinimg.com/736x/0a/03/49/0a0349de71d1abf808957c7cbd2c1679.jpg);
+  border: pink;
+  color: palevioletred;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
